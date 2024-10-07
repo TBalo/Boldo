@@ -9,6 +9,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Manrope';
+  src: url('./Manrope_bold.otf') format('opentype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
 :root {
   font-family: 'Manrope', sans-serif;
   line-height: 1.5;
