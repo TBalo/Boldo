@@ -102,11 +102,11 @@ const Home = () => {
       <section className="bg-[#0A2640] text-[#FFFFFF] flex flex-col items-center justify-center">
         <div className="md:w-[50%] text-center items-center justify-center py-20 px-10">
           <h3 className="text-[15px] md:text-[25px]">Our services</h3>
-          <h1 className="text-center text-[20px] md:text-[40px] items-center justify-center leading-normal my-4">
+          <h1 className="text-center text-[20px] md:text-[35px] items-center justify-center leading-normal my-4">
             Handshake infographic mass market crowdfunding iteration.
           </h1>
         </div>
-        <div className="flex flex-col gap-[50px] md:flex-row md:gap-[150px] pb-20">
+        <div className="flex flex-col gap-[50px] lg:flex-row md:gap-[150px] pb-20">
           <Services service={"Cool feature title"} image={services_one} />
           <Services service={"Even cooler feature"} image={services_two} />
           <Services service={"Cool feature title"} image={services_three} />
@@ -117,7 +117,7 @@ const Home = () => {
         id=""
         className="bg-[#FFFFFF] flex flex-col items-center justify-center pt-10"
       >
-        <div className="flex flex-col md:flex-row pt-10 items-center justify-center gap-4 md:gap-32">
+        <div className="flex flex-col lg:flex-row pt-10 items-center justify-center gap-4 md:gap-2 lg:gap-32">
           <div className="flex items-center">
             <img src={MarketImage} className="w-[300px] h-[350px] md:w-[500px] md:h-[700px]" />
           </div>
@@ -160,7 +160,7 @@ const Home = () => {
         id=""
         className="bg-[#FFFFFF] flex flex-col items-center justify-center py-20"
       >
-        <div className="flex flex-col md:flex-row pt-10 items-center justify-center gap-8 md:gap-32">
+        <div className="flex flex-col lg:flex-row pt-10 items-center justify-center gap-8 md:gap-4 lg:gap-32">
           <div className="flex flex-col items-center px-10 w-full md:px-0 md:w-[35%]">
             <div className="flex text-[#000000] text-[20px] md:text-[30px] pt-10">
               We connect our customers with the best, and help them keep up-and
@@ -197,12 +197,12 @@ const Home = () => {
           <h1 className="md:w-[80%] text-[#FFFFFF] px-10 text-[30px] md:text-[40px] leading-normal my-4">
             An enterprise template to ramp up your company website
           </h1>
-          <div className="flex flex-row gap-8 items-end justify-end md:w-20 md:flex hidden">
+          <div className="flex flex-row gap-8 items-end justify-end md:w-20 lg:flex hidden">
             <img src={leftArrow} />
             <img src={rightArrow} />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row gap-[80px] pb-20">
+        <div className="flex flex-col lg:flex-row gap-[40px] xl:gap-[80px] pb-20">
           <Testimonial
             testimonial={
               "Buyer buzz partner network disruptive non-disclosure agreement business"
@@ -233,7 +233,7 @@ const Home = () => {
         <div className="px-10">
         <img src={office} />
         </div>
-        <div className="flex flex-col md:flex-row pt-10 items-center justify-center gap-8 md:gap-40">
+        <div className="flex flex-col lg:flex-row pt-10 items-center justify-center gap-8 md:gap-2 lg:gap-40">
           <div className="flex text-[#000000] text-[20px] px-10 md:text-[40px] pt-10 w-[300px] md:w-[530px]">
             We connect our customers with the best, and help them keep up-and
             stay open.
@@ -257,11 +257,11 @@ const Home = () => {
       <section className="bg-[#FFFFFF] flex flex-col items-center justify-center py-10">
         <div className="md:w-[50%] text-center items-center justify-center py-4 px-10">
           <h3 className="text-[25px] text-[#777777]">Our Blog</h3>
-          <h1 className="text-[#000000] text-center text-[15px] md:text-[40px] items-center justify-center leading-normal my-4">
+          <h1 className="text-[#000000] text-center text-[15px] md:text-[25px] lg:text-[40px] items-center justify-center leading-normal my-4">
             Value proposition accelerator product management venture
           </h1>
         </div>
-        <div className="flex flex-col md:flex-row gap-[50px] pb-20 px-10 items-center justify-center">
+        <div className="flex flex-col lg:flex-row gap-[50px] pb-20 px-10 items-center justify-center">
           <ProjectManagement
             projectImage={project_one}
             product={"Pitch termsheet backing validation focus release."}
@@ -301,7 +301,7 @@ const Home = () => {
             borderRadius={"40px"} fontSize={""}          />
         </div>
 
-        <div className="w-[300px] md:w-[1300px] rounded-[20px] bg-[#0A2640] flex flex-col items-center justify-center my-10 md:my-20 md:py-14">
+        <div className="w-[300px] md:w-[700px] lg:w-[1300px] rounded-[20px] bg-[#0A2640] flex flex-col items-center justify-center my-10 md:my-20 md:py-14">
           <h1 className="w-[80%] md:w-[55%] text-[#FFFFFF] text-center items-center justify-center text-[20px] md:text-[40px] my-4">
             An enterprise template to ramp up your company website
           </h1>

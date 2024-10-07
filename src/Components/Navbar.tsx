@@ -3,7 +3,7 @@ import CustomButton from "./CustomButton";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#FFFFFF] md:p-4 w-full flex flex-row items-center justify-center">
+    <nav className="bg-[#FFFFFF] md:p-4 md:w-full flex flex-row items-center justify-center">
       <div className="container mx-auto flex gap-8 items-center md:justify-between">
         <div className="flex gap-1 md:gap-2 justify-center items-center">
           <img src={Logo_Boldo} className="h-2 w-2 md:w-full h-full" />
